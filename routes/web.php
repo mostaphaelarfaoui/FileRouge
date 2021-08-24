@@ -25,4 +25,7 @@ Route::get('/permis', function () {
 Route::get('/suivi', function () {
     return view('SuiviCommande');
 });
+Route::get('/livraison', function () {
+    return view('adressLivraison');
+});
 Route::get('/home', 'HomeController@index');

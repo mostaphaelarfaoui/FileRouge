@@ -2,7 +2,7 @@
 
 
 @section('demande')
-   <div class="container ">
+   <div class="container my-4 ">
 
             <fieldset>
 				<legend> <h3>Identification de l'acte</h3></legend>
@@ -451,10 +451,13 @@
 						</div>
 				<br>
 				<div class="f1-buttons">
-					<input type="submit" name="ctl0$CONTENU_PAGE$acteNaissance$etapePrecedente" value="Etape précédente" id="ctl0_CONTENU_PAGE_acteNaissance_etapePrecedente" class="btn btn-previous pull-left" />
+                    <a href="/livraison" class="btn btn-primary mb-1" style="width: 100%;">adressLivraison</a>
+					<input type="submit" name="ctl0$CONTENU_PAGE$acteNaissance$etapePrecedente" value="adressLivraison" id="ctl0_CONTENU_PAGE_acteNaissance_etapePrecedente" class="btn btn-previous pull-left" />
 					<input type="submit" name="ctl0$CONTENU_PAGE$acteNaissance$etapeSuivante" value="Etape suivante" id="ctl0_CONTENU_PAGE_acteNaissance_etapeSuivante" class="btn btn-next" />
 				</div>
 			</fieldset>
+
+
             </div>
 
             @endsection
